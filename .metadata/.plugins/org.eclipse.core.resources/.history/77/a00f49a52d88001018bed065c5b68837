@@ -1,0 +1,40 @@
+package string;
+
+import java.util.StringTokenizer;
+
+public class reverseStrings {
+
+	public static void main(String[] args) {
+	
+		String str = "vijaya";
+		StringBuffer sb = new StringBuffer(str);
+		System.out.println(sb);
+		sb.reverse();
+		String str1= sb.toString();
+		System.out.println(str1);  
+		
+		/*String str = "this is a test";
+
+        StringTokenizer st = new StringTokenizer(str);
+		
+		String result = "";
+
+        while (st.hasMoreTokens()) {
+            String word = st.nextToken();
+            String reversedWord = "";
+
+            // reverse each word using for loop
+            for (int i = word.length() - 1; i >= 0; i--) {
+                reversedWord += word.charAt(i);
+            }
+
+            result = result + reversedWord + " ";
+        }
+
+		System.out.println(result); */
+		
+		
+		
+	}
+
+}

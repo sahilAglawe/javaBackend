@@ -1,0 +1,34 @@
+package abstdemo;
+
+public class subclass extends abstdemo {
+
+	public subclass() {
+		
+	}
+
+	public subclass(int i) {
+		super(i);
+		
+	}
+
+	@Override
+	void show() {
+	
+
+	}
+
+	public static void main(String[] args) {
+		subclass obj = new subclass();
+		
+		obj.show();
+		obj.display();
+		System.out.println(obj.i);
+		
+		subclass obj1 = new subclass(50);
+		
+		obj1.show();
+		obj1.display();
+		System.out.println(obj1.i);
+	}
+
+}

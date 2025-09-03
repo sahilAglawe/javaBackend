@@ -1,0 +1,5 @@
+package abstdemo;
+
+public abstract class abstractdm {
+
+}

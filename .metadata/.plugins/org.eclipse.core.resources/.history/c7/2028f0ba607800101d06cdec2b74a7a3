@@ -1,0 +1,15 @@
+package abstdemo;
+
+public class abstdemo {
+	
+	static
+	{
+		System.out.println("static blank method");
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println("main class");
+	}
+
+}

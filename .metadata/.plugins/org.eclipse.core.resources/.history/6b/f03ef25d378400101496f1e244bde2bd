@@ -1,0 +1,24 @@
+package string;
+
+import java.util.StringTokenizer;
+
+public class reverseStrings {
+
+	public static void main(String[] args) {
+	
+		/*String str = "vijaya";
+		StringBuffer sb = new StringBuffer(str);
+		System.out.println(sb);
+		sb.reverse();
+		String str1= sb.toString();
+		System.out.println(str1);  */
+		
+		StringTokenizer st = new StringTokenizer("this is a test");
+	     while (st.hasMoreTokens()) {
+	         System.out.println(st.nextToken());
+	     }
+		
+		
+	}
+
+}

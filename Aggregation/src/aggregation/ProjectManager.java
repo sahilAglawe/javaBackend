@@ -1,0 +1,53 @@
+package aggregation;
+
+public class ProjectManager extends Employee {
+	
+	int projectId;
+	String projectName, domain;
+	int teamSize;
+	
+	
+
+	public ProjectManager() {
+		super();
+	}
+
+	
+
+	public ProjectManager(int empId, String empName, int age, int salary, Address address, int projectId,
+			String projectName, String domain, int teamSize) {
+		super(empId, empName, age, salary, address);
+		this.projectId = projectId;
+		this.projectName = projectName;
+		this.domain = domain;
+		this.teamSize = teamSize;
+	}
+
+
+
+
+
+
+
+	@Override
+	public String toString() {
+		return "ProjectManager [projectId=" + projectId + ", projectName=" + projectName + ", domain=" + domain
+				+ ", teamSize=" + teamSize + ", empId=" + empId + ", empName=" + empName + ", age=" + age + ", salary="
+				+ salary + ", address=" + address + "]";
+	}
+
+
+
+
+
+
+
+	public static void main(String[] args) {
+		
+		
+		Address add1 = new Address(123, "ameerpet", "hyd", "TL", "India");
+		ProjectManager pm1 = new ProjectManager(999, "vaibhav", 25, 500000, add1, 999, "Bekam", "Banking", 20);
+		System.out.println(pm1);
+	}
+
+}

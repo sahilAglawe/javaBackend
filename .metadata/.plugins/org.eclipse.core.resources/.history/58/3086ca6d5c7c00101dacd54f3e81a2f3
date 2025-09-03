@@ -1,0 +1,23 @@
+package abstdemo;
+
+public abstract class abstractdm {
+
+	int i , j;
+	
+	static void show() {
+		abstractdm obj;
+		System.out.println("super void show");
+	}
+	
+	public abstractdm(){
+		this.i = i;
+		this.j = j;
+		System.out.println("consu bhai super");
+	}
+	
+	void display() {
+		System.out.println("display method");
+	}
+	
+	abstract void sahil();
+}

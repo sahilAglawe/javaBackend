@@ -1,0 +1,10 @@
+package kapilit;
+
+public class mainClassOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package overriding;
+
+public class superclass {
+
+	void show(int i, int j) {
+		System.out.println("method show(int i, int j)");
+	}
+}

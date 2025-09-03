@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=interfaces/src&lt;interfaces{interfaces.java[interfaces" modifiers="513" timestamp="1755628962044"/>
+    <typeInfo handle="=interfaces/src&lt;interfaces{interfacesecond.java[interfacesecond" modifiers="513" timestamp="1755628962067"/>
+    <typeInfo handle="=interfaces/C:\/Users\/sahil\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/21\/docs\/api\/=/=/module=/true=/&lt;jdk.internal.classfile.constantpool(InterfaceMethodRefEntry.class[InterfaceMethodRefEntry" modifiers="268436993" timestamp="1753346916000"/>
+    <typeInfo handle="=interfaces/src&lt;extend{superinterface.java[superinterface" modifiers="513" timestamp="1755804892326"/>
+    <typeInfo handle="=interfaces/src&lt;extend{subinterface.java[subinterface" modifiers="513" timestamp="1755805093968"/>
+    <typeInfo handle="=Aggregation/src&lt;aggregation{Address.java[Address" modifiers="1" timestamp="1756838120538"/>
+    <typeInfo handle="=Aggregation/src&lt;aggregation{Employee.java[Employee" modifiers="1" timestamp="1756839038287"/>
+</typeInfoHistroy>

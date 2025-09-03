@@ -1,0 +1,18 @@
+package kapilit;
+
+public class mainClassOne {
+
+	public static void main(String[] args) {
+		
+		secondInterface obj = (i)->{
+			                         if(i % 2 == 0)
+			                        	 return true;
+			                         else
+			                        	 return false;
+	                            	};
+	                            	
+	   System.out.println(obj.isEven(10));
+
+	}
+
+}

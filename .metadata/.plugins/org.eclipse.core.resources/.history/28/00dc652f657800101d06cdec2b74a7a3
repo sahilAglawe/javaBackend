@@ -1,0 +1,63 @@
+package abstdemo;
+
+abstract class abstdemo {
+	
+	int i = 10;
+	
+	
+	abstdemo(){
+		System.out.println("zero argument const");
+	}
+	
+	abstdemo(int i){
+		this.i = i;
+	}
+	
+	
+	void display() {
+		System.out.println("display method");
+	}
+	abstract void show();
+	//public static void main(String[] args) {
+        
+		//System.out.println("main class");
+//	}
+
+}
+
+
+class Child extends abstdemo {
+    Child() {
+        // Calls super() automatically
+        System.out.println("Child constructor");
+    }
+
+    Child(int i) {
+        super(i); // Calls parameterized constructor of abstract class
+        System.out.println("Child parameterized constructor");
+    }
+
+    @Override
+    void show() {
+        System.out.println("Overridden show method, i = " + i);
+    }
+
+
+public class test{
+    public static void main(String[] args) {
+        // Using zero-arg constructor
+        Child c1 = new Child();
+        c1.display();  // method from abstract class
+        c1.show();     // overridden abstract method
+        System.out.println("Value of i: " + c1.i);
+
+        System.out.println("------");
+
+        // Using parameterized constructor
+        Child c2 = new Child(50);
+        c2.display();
+        c2.show();
+        System.out.println("Value of i: " + c2.i);
+    }
+}
+}

@@ -1,0 +1,10 @@
+package abstdemo;
+
+public class abstdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

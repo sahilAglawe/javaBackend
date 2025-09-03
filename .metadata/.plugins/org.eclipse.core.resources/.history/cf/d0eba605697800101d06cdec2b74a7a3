@@ -1,0 +1,21 @@
+package abstdemo;
+
+abstract class abstdemo {
+    
+    int i = 10;
+    
+    abstdemo() {
+        System.out.println("zero argument const");
+    }
+    
+    abstdemo(int i) {
+        this.i = i;
+    }
+    
+    void display() {
+        System.out.println("display method");
+    }
+    
+    abstract void show();
+}
+

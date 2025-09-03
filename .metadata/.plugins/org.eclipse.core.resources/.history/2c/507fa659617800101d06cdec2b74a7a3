@@ -1,0 +1,20 @@
+package abstdemo;
+
+abstract class abstdemo {
+	
+	static // static blank method
+	{
+		System.out.println("static blank method");
+	}
+	
+	{
+		System.out.println("non static blank method");
+	}
+
+	abstract void show();
+	public static void main(String[] args) {
+
+		System.out.println("main class");
+	}
+
+}

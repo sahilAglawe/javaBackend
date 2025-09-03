@@ -1,0 +1,14 @@
+package abstdemo;
+
+public class subclass {
+
+	public subclass() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

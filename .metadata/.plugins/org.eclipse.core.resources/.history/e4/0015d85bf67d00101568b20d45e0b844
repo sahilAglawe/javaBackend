@@ -1,0 +1,41 @@
+package employee1;
+
+public class employee {
+
+	int empId;
+	String empName;
+	int age , salary;
+	
+	public employee() {
+		super();
+	}
+
+	public employee(int empId, String empName, int age, int salary) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.age = age;
+		this.salary = salary;
+	}
+	
+	employee(employee e){
+		this.empId = e.empId;
+		this.empName = e.empName;
+		this.age = e.age;
+		this.salary = e.salary;
+	}
+	
+	@Override
+	public String toString() {
+		return "employee [empId=" + empId + ", empName=" + empName + ", age=" + age + ", salary=" + salary + "]";
+	}
+	
+	public static void main(String[] args) {
+		employee e = new employee(123, "viju", 22, 200000);
+		employee e1 = new employee(e);
+		//System.out.println(e);
+	}
+
+	
+	
+}

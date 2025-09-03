@@ -1,0 +1,25 @@
+package aggregation;
+
+public class Employee extends Address {
+	
+	int empId;
+	String empName;
+	int age, salary;
+    Address address;
+	
+    
+
+
+	public static void main(String[] args) {
+		
+		 Address add1 = new  Address(123, "ammerpeet", "hyd", "TL", "India");
+		 Address add2 = new  Address(222, "SadashivPeth", "pune", "Mh", "India");
+		 Address add3 = new  Address(333, "mukharji Nagar", "Delhi", "DL", "India");
+		 
+		 Employee e1 = new Employee(44, "Sahil", 21, 200000, add1);
+		 
+		 System.out.println(e1);
+		 
+	}
+
+}

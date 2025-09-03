@@ -1,0 +1,19 @@
+package overriding;
+
+public class subclasss extends superclass {
+	
+        int show(int m, int n) {
+        //System.out.println(super.show(1000, 100));
+		System.out.println("subclass method");
+		//super.display();
+		return m-n;
+	}
+
+	public static void main(String[] args) {
+		superclass obj = new superclass();
+		System.out.println(obj.show(10,7));
+		subclasss obj1 = new subclasss();
+		System.out.println(obj1.show(10,7));
+	}
+
+}
