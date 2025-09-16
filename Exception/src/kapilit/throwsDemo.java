@@ -17,12 +17,15 @@ public class throwsDemo {
 		System.out.println("end of show");
 	}
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		
 		throwsDemo obj = new throwsDemo();
-		
+		try
+		{
 		obj.show(0);
-		
+		}catch(Exception e) {
+			System.out.println("end of main");
+		}
 	}
 
 }
