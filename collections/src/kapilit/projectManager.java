@@ -2,12 +2,6 @@ package kapilit;
 
 public class projectManager extends Emoloyee3 {
 
-	
-
-  
-
-
-
 
 	public projectManager() {
 		super();

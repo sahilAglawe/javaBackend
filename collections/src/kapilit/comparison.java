@@ -16,7 +16,7 @@ public class comparison {
         al.add(p2);
         al.add(p3);
 
-        
+          
         Collections.sort(al);
 
         for (projectManager pm : al) {
