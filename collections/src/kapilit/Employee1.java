@@ -13,9 +13,6 @@ public class Employee1 implements Comparable<Employee1> {
 	}
 
 
-	
-
-
 	public Employee1(int empId, String empName, int age, int salary, Address address) {
 		super();
 		this.empId = empId;
@@ -27,11 +24,6 @@ public class Employee1 implements Comparable<Employee1> {
 
 
 
-
-
-	
-
-
 	@Override
 	public String toString() {
 		return "Employee1 [empId=" + empId + ", empName=" + empName + ", age=" + age + ", salary=" + salary
@@ -39,15 +31,12 @@ public class Employee1 implements Comparable<Employee1> {
 	}
 
 
-
-
-
 	@Override
 	public int compareTo(Employee1 o) {
 		
-		if(this.address.doorNo > o.address.doorNo)
+		if(this.salary > o.salary)
 			return 34;
-		else if(this.address.doorNo < o.address.doorNo)
+		else if(this.salary < o.salary)
 			return -34;
 		else {
 			return 0;

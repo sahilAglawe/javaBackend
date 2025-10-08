@@ -25,10 +25,12 @@ public class listDemo {
 		al.add(e3);
 		al.add(e4);
 		
-		Collections.sort(al);
+		//Collections.min(al);
+		//System.out.println(al);
 		
-		for(Employee1 e : al)
-		  System.out.println(e);
+		Collections.max(al);
+		System.out.println(al);
+		
 	}
 
 }
